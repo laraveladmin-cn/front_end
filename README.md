@@ -26,6 +26,28 @@ cnpm install
 ```
 
 2. 软连接对应关系
+
+2.1 windows系统执行
+
+```shell
+ln -s `pwd`/resources/less/variables.less `pwd`/node_modules/admin-lte/build/less/variables.less  #主题配色变量
+
+ln -s `pwd`/node_modules/animate.css/animate.min.css `pwd`/public/bower_components/animate.css/animate.min.css  #动画样式
+ln -s `pwd`/node_modules/bootstrap/dist `pwd`/public/bower_components/bootstrap/dist   #bootstrap静态资源
+ln -s `pwd`/node_modules/bootstrap-colorpicker/dist `pwd`/public/bower_components/bootstrap-colorpicker/dist #bootstrap颜色选择器静态资源
+ln -s `pwd`/node_modules/echarts/dist `pwd`/public/bower_components/echarts/dist   #echarts图表静态资源
+ln -s `pwd`/node_modules/editor.md `pwd`/public/bower_components/editor.md   #editor.md编辑器静态资源
+ln -s `pwd`/node_modules/font-awesome `pwd`/public/bower_components/font-awesome 
+ln -s `pwd`/node_modules/select2/dist `pwd`/public/bower_components/select2/dist  
+ln -s `pwd`/node_modules/xlsx/dist `pwd`/public/bower_components/xlsx/dist
+ln -s `pwd`/node_modules/ionicons/dist `pwd`/public/bower_components/ionicons  
+
+ln -s `pwd`/resources/sass/_variables.scss `pwd`/resources/theme/_variables.scss   #主题
+ln -s `pwd`/resources/js/components/echarts.theme.json `pwd`/resources/theme/echarts.theme.json 
+ln -s `pwd`/resources/less/variables.less `pwd`/resources/theme/variables.less 
+```
+
+2.2 linux系统执行
 ```shell
 ln -s ../../../../resources/less/variables.less `pwd`/node_modules/admin-lte/build/less/variables.less  #主题配色变量
 
