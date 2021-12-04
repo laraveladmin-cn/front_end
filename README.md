@@ -4,7 +4,7 @@
 
 2. Windows环境请进入git bash命令行工具进行执行安装
    
-![进入git bash](https://www.laraveladmin.cn/storage/uploads/images/2020/12/09/DCVTN13VC08tcVTBGtpYB0xzCrhMf1Gq9DNKfEPl.png
+![进入git bash](https://www.laraveladmin.cn/storage/uploads/images/2020/12/09/DCVTN13VC08tcVTBGtpYB0xzCrhMf1Gq9DNKfEPl.png)
 
 3. 安装好nodejs,cnpm(用于前端模板打包编译
 
