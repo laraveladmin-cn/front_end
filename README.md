@@ -23,8 +23,6 @@ cnpm -v
 git clone https://gitee.com/laravel-admin/front_end.git
 cd front_end
 cnpm install
-npm run prod
-npm run watch
 ```
 
 2. 软连接对应关系
@@ -44,6 +42,13 @@ ln -s ../../node_modules/ionicons/dist `pwd`/public/bower_components/ionicons
 ln -s ../../resources/sass/_variables.scss `pwd`/resources/theme/_variables.scss   #主题
 ln -s ../../resources/js/components/echarts.theme.json `pwd`/resources/theme/echarts.theme.json 
 ln -s ../../resources/less/variables.less `pwd`/resources/theme/variables.less 
+```
+
+3. 编译
+
+```shell
+npm run prod
+npm run watch
 ```
 
 3. 配置站点目录根目录至public
