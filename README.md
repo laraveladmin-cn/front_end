@@ -30,6 +30,7 @@ cnpm install
 2.1 windows系统执行
 
 ```shell
+rm `pwd`/node_modules/admin-lte/build/less/variables.less
 ln -s `pwd`/resources/less/variables.less `pwd`/node_modules/admin-lte/build/less/variables.less  #主题配色变量
 
 ln -s `pwd`/node_modules/animate.css/animate.min.css `pwd`/public/bower_components/animate.css/animate.min.css  #动画样式
@@ -49,6 +50,7 @@ ln -s `pwd`/resources/less/variables.less `pwd`/resources/theme/variables.less
 
 2.2 linux系统执行
 ```shell
+rm `pwd`/node_modules/admin-lte/build/less/variables.less
 ln -s ../../../../resources/less/variables.less `pwd`/node_modules/admin-lte/build/less/variables.less  #主题配色变量
 
 ln -s ../../../node_modules/animate.css/animate.min.css `pwd`/public/bower_components/animate.css/animate.min.css  #动画样式
